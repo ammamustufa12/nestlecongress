@@ -1,0 +1,8 @@
+backend.zip
+backend/neslecongress
+*.apk
+*.sqlite
+*.sqlite-journal
+hs_err_pid*
+replay_pid*
+.vscode/

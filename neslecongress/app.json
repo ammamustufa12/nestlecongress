@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Nestle Medical Congress",
+    "slug": "nestle-congress",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "backgroundColor": "#06102B",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#06102B"
+    },
+    "android": {
+      "package": "com.nestlecongress.app",
+      "usesCleartextTraffic": true
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "extra": {
+      "apiUrl": "https://nestlecongress.raameenautoaccessories.com/api"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-status-bar",
+      "expo-font",
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Nestle Congress uses your location to show the route to the venue."
+        }
+      ]
+    ]
+  }
+}
